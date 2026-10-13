@@ -1,0 +1,11 @@
+.venv/
+.hf_cache/
+__pycache__/
+*.pyc
+.DS_Store
+scripts/Tasks/Task_2/data/
+scripts/Tasks/tokenizers/
+scripts/train/results/
+scripts/eval/scores/
+vectors/
+scripts/eval/cached_data/

@@ -1,0 +1,31 @@
+POS,ID,FrameNet,gpt
+NOUN,n_1,Clothing,concept of garments worn on the body
+NOUN,n_2,Buildings,concept of building used for habitation or lodging
+NOUN,n_3,Building_subparts,concept of enclosed interior space within a building designated for a specific use
+NOUN,n_4,Accoutrements,concept of personal adornment worn on the body or head
+NOUN,n_5,Food,concept of edible food ingredients and categories
+NOUN,n_6,Roadways,concept of routes and structures for transportation and passage
+NOUN,n_7,Intoxicants,concept of psychoactive substances used for intoxication or dependence
+NOUN,n_8,Biological_area,concept of natural land dominated by characteristic vegetation and terrain
+NOUN,n_9,Connectors,concept of fastening and joining materials together
+NOUN,n_10,Offenses,concept of criminal offenses under law
+VERB,v_1,Cause_motion,concept of imparting physical force to cause displacement of an object
+VERB,v_2,Motion_noise,"concept of characteristic sounds produced by impacts, friction, or fluid and air movement"
+VERB,v_3,Fluidic_motion,"concept of liquid movement in a stream, drops, or spray"
+VERB,v_4,Absorb_heat,concept of heat-based food preparation methods
+VERB,v_5,Change_posture,concept of body posture and posture change relative to upright orientation
+VERB,v_6,Communication_manner,concept of vocal utterance manner and style of speech
+VERB,v_7,Manipulate_into_doing,concept of coercive or deceptive influence over others for advantage
+VERB,v_8,Mass_motion,concept of large-quantity arrival or movement in a continuous mass or flow
+VERB,v_9,Cause_change_of_consistency,concept of viscosity and firmness change through phase transition or aggregation
+VERB,v_10,Cause_to_be_wet,concept of thorough application or absorption of liquid causing wetness
+ADJ,a_1,Body_description_holistic,concept of body build and weight-related physique
+ADJ,a_2,Size,concept of magnitude in physical size or extent
+ADJ,a_3,Praiseworthiness,concept of moral evaluation as deserving praise or blame
+ADJ,a_4,Duration_description,concept of temporal duration or persistence
+ADJ,a_5,Measurable_attributes,concept of physical dimensions and magnitude in space and weight
+ADJ,a_6,Beyond_compare,concept of surpassing all others in excellence or quality
+ADJ,a_7,Mental_stimulus_exp_focus,concept of intense interest and preoccupation toward someone or something
+ADJ,a_8,Color_qualities,concept of visual intensity and color saturation along a brightness spectrum
+ADJ,a_9,Strictness,concept of stringency versus permissiveness in rule enforcement
+ADJ,a_10,Being_rotted,concept of decomposition and spoilage

@@ -1,0 +1,214 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "n_slots_per_pos": 5,
+  "pos_keys": [
+    "noun",
+    "verb",
+    "adj"
+  ],
+  "selection": "hill-climbing on probe-dev 3-way accuracy",
+  "screened_on": "probe-dev control words",
+  "restarts": 120,
+  "seed": 0,
+  "consensus_seeds": 5,
+  "vote_counts": {
+    "noun": {
+      "NOUN::NOUN 、 {SLOT} 及": 4,
+      "NOUN::NOUN {SLOT} 之 NUM": 3,
+      "NOUN::该 {SLOT} VERB": 3,
+      "NOUN::的 {SLOT} 而 VERB": 2,
+      "NOUN::<s> {SLOT} 上": 2,
+      "NOUN::的 {SLOT} ADV": 1,
+      "NOUN::的 {SLOT} 则": 1,
+      "NOUN::NOUN {SLOT} 中 VERB": 1,
+      "NOUN::在 {SLOT} 上": 1,
+      "NOUN::， {SLOT} 和 NOUN": 1,
+      "NOUN::的 ADJ {SLOT} ， VERB": 1,
+      "NOUN::的 {SLOT} 可以": 1,
+      "NOUN::的 {SLOT} 被": 1,
+      "NOUN::ADJ {SLOT} 之 NUM": 1,
+      "NOUN::VERB {SLOT} 上": 1,
+      "NOUN::PROPN 的 {SLOT} VERB": 1
+    },
+    "verb": {
+      "VERB::以 {SLOT} PRON": 5,
+      "VERB::NOUN {SLOT} 过": 3,
+      "VERB::又 {SLOT} NOUN": 3,
+      "VERB::ADV {SLOT} PROPN 的": 2,
+      "VERB::PRON {SLOT} 了": 2,
+      "VERB::， {SLOT} 于 PROPN": 2,
+      "VERB::， {SLOT} 后": 2,
+      "VERB::， 也 {SLOT} PROPN": 2,
+      "VERB::被 {SLOT} 的 NOUN": 1,
+      "VERB::共 {SLOT} NUM": 1,
+      "VERB::经常 {SLOT} NOUN": 1,
+      "VERB::<s> PROPN {SLOT} 后": 1
+    },
+    "adj": {
+      "ADJ::是 {SLOT} 的 。": 5,
+      "ADJ::非常 {SLOT} 的": 5,
+      "ADJ::最 {SLOT} 的": 5,
+      "ADJ::更 {SLOT} 的": 5,
+      "ADJ::NOUN {SLOT} 地 VERB": 5
+    }
+  },
+  "probedev_accuracy": 0.9298,
+  "optimism_estimate": 0.1099,
+  "balanced_design_achieved": true,
+  "distinct_diagnostics": 12,
+  "slots": {
+    "noun": [
+      "NOUN::NOUN 、 {SLOT} 及",
+      "NOUN::该 {SLOT} VERB",
+      "NOUN::NOUN {SLOT} 之 NUM",
+      "NOUN::<s> {SLOT} 上",
+      "NOUN::的 {SLOT} 而 VERB"
+    ],
+    "verb": [
+      "VERB::以 {SLOT} PRON",
+      "VERB::NOUN {SLOT} 过",
+      "VERB::又 {SLOT} NOUN",
+      "VERB::PRON {SLOT} 了",
+      "VERB::， {SLOT} 后"
+    ],
+    "adj": [
+      "ADJ::NOUN {SLOT} 地 VERB",
+      "ADJ::是 {SLOT} 的 。",
+      "ADJ::更 {SLOT} 的",
+      "ADJ::最 {SLOT} 的",
+      "ADJ::非常 {SLOT} 的"
+    ]
+  },
+  "selected_log": {
+    "noun": [
+      {
+        "signature": "NOUN 、 {SLOT} 及",
+        "auc_probedev": 0.8809,
+        "diagnostic": [
+          "及"
+        ],
+        "example": "政府、□及"
+      },
+      {
+        "signature": "该 {SLOT} VERB",
+        "auc_probedev": 0.8047,
+        "diagnostic": [
+          "进行"
+        ],
+        "example": "该□进行"
+      },
+      {
+        "signature": "NOUN {SLOT} 之 NUM",
+        "auc_probedev": 0.7839,
+        "diagnostic": [
+          "之",
+          "一"
+        ],
+        "example": "人们□之一"
+      },
+      {
+        "signature": "<s> {SLOT} 上",
+        "auc_probedev": 0.8753,
+        "diagnostic": [
+          "上"
+        ],
+        "example": "□上"
+      },
+      {
+        "signature": "的 {SLOT} 而 VERB",
+        "auc_probedev": 0.3144,
+        "diagnostic": [
+          "而",
+          "有"
+        ],
+        "example": "他的□而有"
+      }
+    ],
+    "verb": [
+      {
+        "signature": "以 {SLOT} PRON",
+        "auc_probedev": 0.9127,
+        "diagnostic": [
+          "他"
+        ],
+        "example": "他以□他"
+      },
+      {
+        "signature": "NOUN {SLOT} 过",
+        "auc_probedev": 0.8657,
+        "diagnostic": [
+          "过"
+        ],
+        "example": "人们□过"
+      },
+      {
+        "signature": "又 {SLOT} NOUN",
+        "auc_probedev": 0.7064,
+        "diagnostic": [
+          "人们"
+        ],
+        "example": "他又□人们"
+      },
+      {
+        "signature": "PRON {SLOT} 了",
+        "auc_probedev": 0.9183,
+        "diagnostic": [
+          "了"
+        ],
+        "example": "他□了"
+      },
+      {
+        "signature": "， {SLOT} 后",
+        "auc_probedev": 0.8934,
+        "diagnostic": [
+          "后"
+        ],
+        "example": "此后，□后"
+      }
+    ],
+    "adj": [
+      {
+        "signature": "NOUN {SLOT} 地 VERB",
+        "auc_probedev": 0.8006,
+        "diagnostic": [
+          "地",
+          "进行"
+        ],
+        "example": "人们□地进行"
+      },
+      {
+        "signature": "是 {SLOT} 的 。",
+        "auc_probedev": 0.5845,
+        "diagnostic": [
+          "的",
+          "。"
+        ],
+        "example": "这是□的。"
+      },
+      {
+        "signature": "更 {SLOT} 的",
+        "auc_probedev": 0.518,
+        "diagnostic": [
+          "的"
+        ],
+        "example": "这是更□的"
+      },
+      {
+        "signature": "最 {SLOT} 的",
+        "auc_probedev": 0.5139,
+        "diagnostic": [
+          "的"
+        ],
+        "example": "这是最□的"
+      },
+      {
+        "signature": "非常 {SLOT} 的",
+        "auc_probedev": 0.5097,
+        "diagnostic": [
+          "的"
+        ],
+        "example": "这是非常□的"
+      }
+    ]
+  }
+}

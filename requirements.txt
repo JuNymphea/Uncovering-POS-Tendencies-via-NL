@@ -1,0 +1,21 @@
+# Versions in comments are the ones the results were produced with.
+
+# training, answer generation and the three probes
+torch>=2.6            # 2.14 (cluster runs)
+transformers>=5.0     # 5.17 (cluster runs)
+accelerate
+tokenizers
+tqdm
+numpy                 # 2.1.1
+
+# Task 2 slots and word lists, Task 3 English POS
+scipy                 # 1.15.1
+nltk                  # 3.9.1  (data: wordnet, omw-1.4, framenet_v17)
+spacy                 # 3.8.4  (model: en_core_web_sm)
+jieba                 # Chinese word lists (Task 2)
+huggingface_hub       # tokenizer download (Task 2 word lists)
+
+# OpenAI API calls (data generation, LLM judge, Chinese Task 3 frame labels)
+openai
+httpx
+pandas                # LLM judge

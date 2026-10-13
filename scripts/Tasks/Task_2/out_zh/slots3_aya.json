@@ -1,0 +1,665 @@
+{
+  "NOUN": [
+    {
+      "signature": "在 {SLOT} 上",
+      "pos": "NOUN",
+      "prefix_tokens": [
+        "他",
+        "在",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "他在{NEOLOGISM}",
+      "diagnostic": [
+        "上"
+      ],
+      "item": "他在{NEOLOGISM}上",
+      "opener": [
+        "他"
+      ],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 21,
+      "n_types": 18,
+      "counts": {
+        "NOUN": 21,
+        "VERB": 0,
+        "ADJ": 0
+      },
+      "other": {},
+      "held_out_n": 3,
+      "held_out_purity": 1.0,
+      "score": 9.1014,
+      "dominant_deprel": "obl",
+      "fillers_attested": [
+        "伦理",
+        "国旗",
+        "地理",
+        "外交",
+        "宴席",
+        "形式",
+        "技术",
+        "法庭",
+        "理论",
+        "电视"
+      ],
+      "attested_example": "在[网路]上"
+    },
+    {
+      "signature": "的 ADJ {SLOT} VERB",
+      "pos": "NOUN",
+      "prefix_tokens": [
+        "他",
+        "的",
+        "主要",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "他的主要{NEOLOGISM}",
+      "diagnostic": [
+        "有"
+      ],
+      "item": "他的主要{NEOLOGISM}有",
+      "opener": [
+        "他"
+      ],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 19,
+      "n_types": 19,
+      "counts": {
+        "NOUN": 19,
+        "VERB": 0,
+        "ADJ": 0
+      },
+      "other": {},
+      "held_out_n": 4,
+      "held_out_purity": 1.0,
+      "score": 8.9744,
+      "dominant_deprel": "nsubj",
+      "fillers_attested": [
+        "位置",
+        "决策",
+        "发展",
+        "君主",
+        "地区",
+        "局面",
+        "差距",
+        "形式",
+        "形象",
+        "感觉"
+      ],
+      "attested_example": "的悲惨[童年]造就"
+    },
+    {
+      "signature": "NOUN {SLOT} 之 NUM",
+      "pos": "NOUN",
+      "prefix_tokens": [
+        "人们",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "人们{NEOLOGISM}",
+      "diagnostic": [
+        "之",
+        "一"
+      ],
+      "item": "人们{NEOLOGISM}之一",
+      "opener": [],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 18,
+      "n_types": 14,
+      "counts": {
+        "NOUN": 18,
+        "VERB": 0,
+        "ADJ": 0
+      },
+      "other": {},
+      "held_out_n": 3,
+      "held_out_purity": 0.75,
+      "score": 7.9737,
+      "dominant_deprel": "nmod",
+      "fillers_attested": [
+        "其中",
+        "单位",
+        "古迹",
+        "器官",
+        "因素",
+        "场地",
+        "大楼",
+        "客户",
+        "建筑",
+        "方案"
+      ],
+      "attested_example": "保护[单位]之一"
+    },
+    {
+      "signature": "的 NOUN {SLOT} 和 NOUN",
+      "pos": "NOUN",
+      "prefix_tokens": [
+        "他",
+        "的",
+        "工作",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "他的工作{NEOLOGISM}",
+      "diagnostic": [
+        "和",
+        "政府"
+      ],
+      "item": "他的工作{NEOLOGISM}和政府",
+      "opener": [
+        "他"
+      ],
+      "morph_requirement": "Any",
+      "purity": 0.9333,
+      "purity_target3": 1.0,
+      "n": 14,
+      "n_types": 14,
+      "counts": {
+        "NOUN": 14,
+        "VERB": 0,
+        "ADJ": 0
+      },
+      "other": {
+        "PUNCT": 1
+      },
+      "held_out_n": 6,
+      "held_out_purity": 0.75,
+      "score": 6.8446,
+      "dominant_deprel": "nsubj",
+      "fillers_attested": [
+        "侵蚀",
+        "出血",
+        "城市",
+        "思想",
+        "戒毒",
+        "技术",
+        "收益",
+        "文化",
+        "歌手",
+        "环境"
+      ],
+      "attested_example": "的风俗[文化]和语言"
+    },
+    {
+      "signature": "NOUN 、 {SLOT} 及",
+      "pos": "NOUN",
+      "prefix_tokens": [
+        "政府",
+        "、",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "政府、{NEOLOGISM}",
+      "diagnostic": [
+        "及"
+      ],
+      "item": "政府、{NEOLOGISM}及",
+      "opener": [],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 12,
+      "n_types": 12,
+      "counts": {
+        "NOUN": 12,
+        "VERB": 0,
+        "ADJ": 0
+      },
+      "other": {},
+      "held_out_n": 4,
+      "held_out_purity": 1.0,
+      "score": 6.579,
+      "dominant_deprel": "conj",
+      "fillers_attested": [
+        "午膳",
+        "协会",
+        "学术",
+        "弹涂鱼",
+        "播放",
+        "池塘",
+        "沙丘",
+        "漫画",
+        "猎杀",
+        "疾病"
+      ],
+      "attested_example": "酒店、[零售]及"
+    }
+  ],
+  "VERB": [
+    {
+      "signature": "经常 {SLOT} NOUN",
+      "pos": "VERB",
+      "prefix_tokens": [
+        "他",
+        "经常",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "他经常{NEOLOGISM}",
+      "diagnostic": [
+        "人们"
+      ],
+      "item": "他经常{NEOLOGISM}人们",
+      "opener": [
+        "他"
+      ],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 9,
+      "n_types": 9,
+      "counts": {
+        "NOUN": 0,
+        "VERB": 9,
+        "ADJ": 0
+      },
+      "other": {},
+      "held_out_n": 1,
+      "held_out_purity": 1.0,
+      "score": 5.3019,
+      "dominant_deprel": "root",
+      "fillers_attested": [
+        "使用",
+        "去抢",
+        "描写",
+        "提到",
+        "有",
+        "服用",
+        "由",
+        "进行",
+        "遭到"
+      ],
+      "attested_example": "经常[有]网友"
+    },
+    {
+      "signature": "会 {SLOT} NOUN ，",
+      "pos": "VERB",
+      "prefix_tokens": [
+        "他",
+        "会",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "他会{NEOLOGISM}",
+      "diagnostic": [
+        "地区",
+        "，"
+      ],
+      "item": "他会{NEOLOGISM}地区，",
+      "opener": [
+        "他"
+      ],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 8,
+      "n_types": 8,
+      "counts": {
+        "NOUN": 0,
+        "VERB": 8,
+        "ADJ": 0
+      },
+      "other": {},
+      "held_out_n": 0,
+      "held_out_purity": null,
+      "score": 4.8278,
+      "dominant_deprel": "advcl",
+      "fillers_attested": [
+        "产生",
+        "保留",
+        "变成",
+        "大发",
+        "带来",
+        "添加",
+        "猎食",
+        "造成"
+      ],
+      "attested_example": "会[造成]破坏，"
+    },
+    {
+      "signature": "NOUN {SLOT} 过",
+      "pos": "VERB",
+      "prefix_tokens": [
+        "人们",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "人们{NEOLOGISM}",
+      "diagnostic": [
+        "过"
+      ],
+      "item": "人们{NEOLOGISM}过",
+      "opener": [],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 7,
+      "n_types": 7,
+      "counts": {
+        "NOUN": 0,
+        "VERB": 7,
+        "ADJ": 0
+      },
+      "other": {},
+      "held_out_n": 2,
+      "held_out_purity": 1.0,
+      "score": 4.3241,
+      "dominant_deprel": "root",
+      "fillers_attested": [
+        "客串",
+        "服务",
+        "表示",
+        "见",
+        "踢",
+        "达到",
+        "飞"
+      ],
+      "attested_example": "艺术[达到]过"
+    },
+    {
+      "signature": "上 {SLOT} 了",
+      "pos": "VERB",
+      "prefix_tokens": [
+        "在",
+        "这个",
+        "问题",
+        "上",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "在这个问题上{NEOLOGISM}",
+      "diagnostic": [
+        "了"
+      ],
+      "item": "在这个问题上{NEOLOGISM}了",
+      "opener": [
+        "在",
+        "这个",
+        "问题"
+      ],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 7,
+      "n_types": 7,
+      "counts": {
+        "NOUN": 0,
+        "VERB": 7,
+        "ADJ": 0
+      },
+      "other": {},
+      "held_out_n": 1,
+      "held_out_purity": 1.0,
+      "score": 4.3241,
+      "dominant_deprel": "parataxis",
+      "fillers_attested": [
+        "同意",
+        "影响",
+        "接替",
+        "推前",
+        "获得",
+        "进行",
+        "阻隔"
+      ],
+      "attested_example": "上[同意]了"
+    },
+    {
+      "signature": "以 {SLOT} PRON",
+      "pos": "VERB",
+      "prefix_tokens": [
+        "他",
+        "以",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "他以{NEOLOGISM}",
+      "diagnostic": [
+        "他"
+      ],
+      "item": "他以{NEOLOGISM}他",
+      "opener": [
+        "他"
+      ],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 7,
+      "n_types": 7,
+      "counts": {
+        "NOUN": 0,
+        "VERB": 7,
+        "ADJ": 0
+      },
+      "other": {},
+      "held_out_n": 0,
+      "held_out_purity": null,
+      "score": 4.3241,
+      "dominant_deprel": "root",
+      "fillers_attested": [
+        "代表",
+        "供",
+        "决定",
+        "称赞",
+        "翻越",
+        "表扬",
+        "阻止"
+      ],
+      "attested_example": "以[翻越]自己"
+    }
+  ],
+  "ADJ": [
+    {
+      "signature": "最 {SLOT} 的",
+      "pos": "ADJ",
+      "prefix_tokens": [
+        "这",
+        "是",
+        "最",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "这是最{NEOLOGISM}",
+      "diagnostic": [
+        "的"
+      ],
+      "item": "这是最{NEOLOGISM}的",
+      "opener": [
+        "这",
+        "是"
+      ],
+      "morph_requirement": "Any",
+      "purity": 0.963,
+      "purity_target3": 0.963,
+      "n": 54,
+      "n_types": 33,
+      "counts": {
+        "NOUN": 0,
+        "VERB": 2,
+        "ADJ": 52
+      },
+      "other": {},
+      "held_out_n": 12,
+      "held_out_purity": 1.0,
+      "score": 11.6458,
+      "dominant_deprel": "amod",
+      "fillers_attested": [
+        "丰富",
+        "主要",
+        "伟大",
+        "伤心",
+        "关心",
+        "关键",
+        "典型",
+        "出色",
+        "危险",
+        "原始"
+      ],
+      "attested_example": "最[常见]的"
+    },
+    {
+      "signature": "NOUN {SLOT} 地 VERB",
+      "pos": "ADJ",
+      "prefix_tokens": [
+        "人们",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "人们{NEOLOGISM}",
+      "diagnostic": [
+        "地",
+        "进行"
+      ],
+      "item": "人们{NEOLOGISM}地进行",
+      "opener": [],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 12,
+      "n_types": 12,
+      "counts": {
+        "NOUN": 0,
+        "VERB": 0,
+        "ADJ": 12
+      },
+      "other": {},
+      "held_out_n": 0,
+      "held_out_purity": null,
+      "score": 6.579,
+      "dominant_deprel": "advmod",
+      "fillers_attested": [
+        "严谨",
+        "婉转",
+        "成功",
+        "明显",
+        "明确",
+        "更多",
+        "激烈",
+        "疯狂",
+        "短暂",
+        "精确"
+      ],
+      "attested_example": "著作[更多]地出现"
+    },
+    {
+      "signature": "非常 {SLOT} 的",
+      "pos": "ADJ",
+      "prefix_tokens": [
+        "这",
+        "是",
+        "非常",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "这是非常{NEOLOGISM}",
+      "diagnostic": [
+        "的"
+      ],
+      "item": "这是非常{NEOLOGISM}的",
+      "opener": [
+        "这",
+        "是"
+      ],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 7,
+      "n_types": 6,
+      "counts": {
+        "NOUN": 0,
+        "VERB": 0,
+        "ADJ": 7
+      },
+      "other": {},
+      "held_out_n": 2,
+      "held_out_purity": 1.0,
+      "score": 4.0464,
+      "dominant_deprel": "amod",
+      "fillers_attested": [
+        "不同",
+        "广泛",
+        "斜",
+        "有用",
+        "浓密",
+        "重要"
+      ],
+      "attested_example": "非常[重要]的"
+    },
+    {
+      "signature": "是 {SLOT} 的 。",
+      "pos": "ADJ",
+      "prefix_tokens": [
+        "这",
+        "是",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "这是{NEOLOGISM}",
+      "diagnostic": [
+        "的",
+        "。"
+      ],
+      "item": "这是{NEOLOGISM}的。",
+      "opener": [
+        "这"
+      ],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 5,
+      "n_types": 5,
+      "counts": {
+        "NOUN": 0,
+        "VERB": 0,
+        "ADJ": 5
+      },
+      "other": {},
+      "held_out_n": 3,
+      "held_out_purity": 1.0,
+      "score": 3.2104,
+      "dominant_deprel": "parataxis",
+      "fillers_attested": [
+        "一样",
+        "不同",
+        "有限",
+        "正确",
+        "致命"
+      ],
+      "attested_example": "是[有限]的。"
+    },
+    {
+      "signature": "更 {SLOT} 的",
+      "pos": "ADJ",
+      "prefix_tokens": [
+        "这",
+        "是",
+        "更",
+        "{NEOLOGISM}"
+      ],
+      "prefix": "这是更{NEOLOGISM}",
+      "diagnostic": [
+        "的"
+      ],
+      "item": "这是更{NEOLOGISM}的",
+      "opener": [
+        "这",
+        "是"
+      ],
+      "morph_requirement": "Any",
+      "purity": 1.0,
+      "purity_target3": 1.0,
+      "n": 5,
+      "n_types": 5,
+      "counts": {
+        "NOUN": 0,
+        "VERB": 0,
+        "ADJ": 5
+      },
+      "other": {},
+      "held_out_n": 2,
+      "held_out_purity": 1.0,
+      "score": 3.2104,
+      "dominant_deprel": "amod",
+      "fillers_attested": [
+        "大型",
+        "简单",
+        "细致",
+        "高效",
+        "高级"
+      ],
+      "attested_example": "更[高效]的"
+    }
+  ]
+}

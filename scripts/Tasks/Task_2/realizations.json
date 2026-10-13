@@ -1,0 +1,245 @@
+{
+  "_doc": "status: accept | rewrite | reject. A rejected frame is dropped and the next corpus candidate takes its place. The rejections here are based on control-word AUC (known words only; no neologism results were looked at).",
+  "slots": [
+    {
+      "pos": "NOUN",
+      "signature": "the {SLOT} of",
+      "generated": "The {NEOLOGISM} of",
+      "status": "accept",
+      "text": "The {NEOLOGISM} of",
+      "note": ""
+    },
+    {
+      "pos": "NOUN",
+      "signature": "ADJ {SLOT} of",
+      "generated": "The different {NEOLOGISM} of",
+      "status": "accept",
+      "text": "The different {NEOLOGISM} of",
+      "note": ""
+    },
+    {
+      "pos": "NOUN",
+      "signature": "the {SLOT} PRON VERB",
+      "generated": "The {NEOLOGISM} it started",
+      "status": "accept",
+      "text": "The {NEOLOGISM} it started",
+      "note": ""
+    },
+    {
+      "pos": "NOUN",
+      "signature": "a {SLOT} to",
+      "generated": "A {NEOLOGISM} to",
+      "status": "accept",
+      "text": "A {NEOLOGISM} to",
+      "note": ""
+    },
+    {
+      "pos": "NOUN",
+      "signature": "ADJ {SLOT} in the",
+      "generated": "The different {NEOLOGISM} in the",
+      "status": "accept",
+      "text": "The different {NEOLOGISM} in the",
+      "note": ""
+    },
+    {
+      "pos": "NOUN",
+      "signature": "a {SLOT} for",
+      "generated": "They have seen a {NEOLOGISM} for",
+      "status": "accept",
+      "text": "They have seen a {NEOLOGISM} for",
+      "note": ""
+    },
+    {
+      "pos": "NOUN",
+      "signature": "the {SLOT} was",
+      "generated": "The {NEOLOGISM} was",
+      "status": "accept",
+      "text": "The {NEOLOGISM} was",
+      "note": ""
+    },
+    {
+      "pos": "NOUN",
+      "signature": "this {SLOT} is",
+      "generated": "This {NEOLOGISM} is",
+      "status": "accept",
+      "text": "This {NEOLOGISM} is",
+      "note": ""
+    },
+    {
+      "pos": "NOUN",
+      "signature": "<s> the {SLOT} is",
+      "generated": "The {NEOLOGISM} is",
+      "status": "accept",
+      "text": "The {NEOLOGISM} is",
+      "note": ""
+    },
+    {
+      "pos": "NOUN",
+      "signature": "the ADJ {SLOT} is",
+      "generated": "The different {NEOLOGISM} is",
+      "status": "accept",
+      "text": "The different {NEOLOGISM} is",
+      "note": ""
+    },
+    {
+      "pos": "VERB",
+      "signature": "to {SLOT} PRON",
+      "generated": "They tried to {NEOLOGISM} it",
+      "status": "accept",
+      "text": "They tried to {NEOLOGISM} it",
+      "note": ""
+    },
+    {
+      "pos": "VERB",
+      "signature": "NOUN to {SLOT} the",
+      "generated": "The thing to {NEOLOGISM} the",
+      "status": "accept",
+      "text": "The thing to {NEOLOGISM} the",
+      "note": ""
+    },
+    {
+      "pos": "VERB",
+      "signature": "n't {SLOT} PRON",
+      "generated": "They don't {NEOLOGISM} it",
+      "status": "accept",
+      "text": "They don't {NEOLOGISM} it",
+      "note": ""
+    },
+    {
+      "pos": "VERB",
+      "signature": "will {SLOT} PRON",
+      "generated": "They will {NEOLOGISM} it",
+      "status": "accept",
+      "text": "They will {NEOLOGISM} it",
+      "note": ""
+    },
+    {
+      "pos": "VERB",
+      "signature": "VERB to {SLOT} the NOUN",
+      "generated": "They tried to {NEOLOGISM} the thing",
+      "status": "reject",
+      "text": "They tried to {NEOLOGISM} the thing",
+      "note": "control-word AUC 0.469 < 0.60: the model does not separate matched from non-matched words"
+    },
+    {
+      "pos": "VERB",
+      "signature": "PRON can {SLOT} PRON",
+      "generated": "They can {NEOLOGISM} it",
+      "status": "accept",
+      "text": "They can {NEOLOGISM} it",
+      "note": ""
+    },
+    {
+      "pos": "VERB",
+      "signature": "<s> PRON {SLOT} to",
+      "generated": "I {NEOLOGISM} to",
+      "status": "reject",
+      "text": "I {NEOLOGISM} to",
+      "note": "control-word AUC 0.495 < 0.60: the model does not separate matched from non-matched words"
+    },
+    {
+      "pos": "VERB",
+      "signature": "PRON {SLOT} PRON to",
+      "generated": "I {NEOLOGISM} it to",
+      "status": "accept",
+      "text": "I {NEOLOGISM} it to",
+      "note": ""
+    },
+    {
+      "pos": "VERB",
+      "signature": "do n't {SLOT} to",
+      "generated": "They don't {NEOLOGISM} to",
+      "status": "reject",
+      "text": "They don't {NEOLOGISM} to",
+      "note": "control-word AUC 0.322 < 0.60: the model does not separate matched from non-matched words"
+    },
+    {
+      "pos": "VERB",
+      "signature": "to {SLOT} the NOUN .",
+      "generated": "They tried to {NEOLOGISM} the thing",
+      "status": "reject",
+      "text": "They tried to {NEOLOGISM} the thing",
+      "note": "control-word AUC 0.469 < 0.60: the model does not separate matched from non-matched words"
+    },
+    {
+      "pos": "ADJ",
+      "signature": "very {SLOT} NOUN",
+      "generated": "It was a very {NEOLOGISM} thing",
+      "status": "accept",
+      "text": "It was a very {NEOLOGISM} thing",
+      "note": ""
+    },
+    {
+      "pos": "ADJ",
+      "signature": "very {SLOT} and ADJ",
+      "generated": "It was very {NEOLOGISM} and similar",
+      "status": "accept",
+      "text": "It was very {NEOLOGISM} and similar",
+      "note": ""
+    },
+    {
+      "pos": "ADJ",
+      "signature": "very {SLOT} to",
+      "generated": "It was very {NEOLOGISM} to",
+      "status": "reject",
+      "text": "It was very {NEOLOGISM} to",
+      "note": "control-word AUC 0.589 < 0.60: the model does not separate matched from non-matched words"
+    },
+    {
+      "pos": "ADJ",
+      "signature": "is a {SLOT} NOUN to",
+      "generated": "It is a {NEOLOGISM} thing to",
+      "status": "accept",
+      "text": "It is a {NEOLOGISM} thing to",
+      "note": ""
+    },
+    {
+      "pos": "ADJ",
+      "signature": "would be {SLOT} to",
+      "generated": "They would be {NEOLOGISM} to",
+      "status": "reject",
+      "text": "They would be {NEOLOGISM} to",
+      "note": "control-word AUC 0.456 < 0.60: the model does not separate matched from non-matched words"
+    },
+    {
+      "pos": "ADJ",
+      "signature": "PRON is {SLOT} that",
+      "generated": "It is {NEOLOGISM} that",
+      "status": "reject",
+      "text": "It is {NEOLOGISM} that",
+      "note": "control-word AUC 0.389 < 0.60: the model does not separate matched from non-matched words"
+    },
+    {
+      "pos": "ADJ",
+      "signature": "is {SLOT} and ADJ",
+      "generated": "It is {NEOLOGISM} and other",
+      "status": "reject",
+      "text": "It is {NEOLOGISM} and other",
+      "note": "control-word AUC 0.426 < 0.60: the model does not separate matched from non-matched words"
+    },
+    {
+      "pos": "ADJ",
+      "signature": ", the {SLOT} NOUN of",
+      "generated": "It was, the {NEOLOGISM} one of",
+      "status": "accept",
+      "text": "It was, the {NEOLOGISM} one of",
+      "note": ""
+    },
+    {
+      "pos": "ADJ",
+      "signature": "a {SLOT} NOUN , and",
+      "generated": "A {NEOLOGISM} thing and",
+      "status": "accept",
+      "text": "A {NEOLOGISM} thing and",
+      "note": ""
+    },
+    {
+      "pos": "ADJ",
+      "signature": "ADJ , {SLOT} , and",
+      "generated": "They have seen the same, {NEOLOGISM} and",
+      "status": "reject",
+      "text": "They have seen the same, {NEOLOGISM} and",
+      "note": "control-word AUC 0.370 < 0.60: the model does not separate matched from non-matched words"
+    }
+  ]
+}
